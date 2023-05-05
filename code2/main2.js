@@ -37,9 +37,9 @@ function createNewChildAtStart() {
   list.prepend(addElem2);
 }
 
-// document.addEventListener('click', function(event) {
-//   const click = event.target.input;
-//   if (click === "selectFirstChild()") {
-//     selectFirstChild.remove();
-//   }
-// });
+document.addEventListener('click', function(event) {
+  const click = event.target.closest('[onclick]');
+  if (click === "selectFirstChild()") {
+    selectFirstChild.remove();
+  }
+});
