@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.container0 {
+  margin: 20px;
+  background: #bced9c;
+  padding-left: 50px;
+}
+
+.container1 {
+  margin: 20px;
+  background: #e2c858;
+  padding-left: 50px;
+}
+
+.container2 {
+  margin: 20px;
+  background: #84eee9;
+  padding-left: 50px;
+}
+
+.container3 {
+  margin: 20px;
+  background: #ebdab6;
+  padding-left: 50px;
+}
+
+.container4 {
+  margin: 20px;
+  background: #c6aff5;
+  padding-left: 50px;
+}
+
+button, [type] {
+  margin-left: 10px;
+}
+
+textarea {
+  resize: none;
+  padding: 15px;
+}
